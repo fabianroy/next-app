@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function AboutLayout({ children }) {
     return (
         <div>
-            <nav className="m-6">
+            <nav className="mt-6">
                 <nav>
                     <ul className="flex items-center gap-4">
                         <li><Link href='/about/mission'>Mission</Link></li>
